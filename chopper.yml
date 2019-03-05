@@ -1,0 +1,22 @@
+name: chopper
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - pulp
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - python>=3.6
+  - pytorch
+  - torchvision
+  - nodejs
+- pip:
+    - ipympl
+    - npm
+prefix: /home/bhootmali/anaconda3/envs/eno
+
+#jupyter labextension install @jupyter-widgets/jupyterlab-manager
+#jupyter labextension install jupyter-matplotlib
